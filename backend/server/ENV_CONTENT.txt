@@ -1,0 +1,10 @@
+# Add these to backend/server/.env
+
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+# To fix "Project not found" when opening a project:
+# 1. In Supabase Dashboard: Settings > API
+# 2. Copy the "service_role" key (secret, not the anon key)
+# 3. Add to .env as SUPABASE_SERVICE_ROLE_KEY=...
