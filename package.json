@@ -1,0 +1,28 @@
+{
+  "name": "bug-tracker-backend",
+  "version": "1.0.0",
+  "description": "Industry-grade Bug/Issue Tracker backend API",
+  "main": "backend/server/server.js",
+  "scripts": {
+    "start": "node backend/server/server.js",
+    "dev": "nodemon backend/server/server.js"
+  },
+  "keywords": [
+    "bug-tracker",
+    "issue-tracker",
+    "kanban",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
